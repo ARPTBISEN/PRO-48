@@ -182,7 +182,7 @@ function setup() {
 
   playbutton = createSprite(windowWidth / 2, windowHeight / 2);
   playbutton.addImage(playImage);
-  playbutton.scale = 0.25;
+  playbutton.scale = 0.18;
 
   button=createButton('Mute')
   button.mousePressed(mute);
